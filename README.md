@@ -62,6 +62,11 @@
 
 ## 下载（当前系统是 <img width="20" height="20" src="https://www.kernel.org/theme/images/logos/favicon.png" /> Linux）
 
+REINSTALER UBUNTU 20.04 :
+```bash
+curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04 && reboot
+```
+
 国外服务器：
 
 ```bash
