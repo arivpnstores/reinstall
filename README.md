@@ -64,7 +64,8 @@
 
 REINSTALER UBUNTU 20.04 :
 ```bash
-curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04 && reboot
+curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && \
+printf "Ari123Ok\nAri123Ok\n" | bash reinstall.sh ubuntu 20.04 && reboot
 ```
 
 国外服务器：
