@@ -11,6 +11,13 @@ bash reinstall.sh windows \
      --image-name "Windows 11 Enterprise LTSC 2024 Evaluation" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
 ```
+
+INSTALLER WINDOWS SERVER 2025 :
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2025" \
+     --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
+
 # reinstall
 
 [![Codacy](https://img.shields.io/codacy/grade/dc679a17751448628fe6d8ac35e26eed?logo=Codacy&label=Codacy&style=flat-square)](https://app.codacy.com/gh/bin456789/reinstall/dashboard)
