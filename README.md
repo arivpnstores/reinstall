@@ -4,7 +4,7 @@ AUTO REINSTALER UBUNTU 20.04 :
 curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
 ```
 
-AUTO REINSTALER UBUNTU 20.04 :
+INSTALLER WINDOWS 11 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && 
 bash reinstall.sh windows \
