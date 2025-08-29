@@ -13,10 +13,12 @@ bash reinstall.sh windows \
 ```
 
 INSTALLER WINDOWS SERVER 2025 :
+```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2025" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
+```
 
 # reinstall
 
