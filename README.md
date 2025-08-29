@@ -1,5 +1,16 @@
 <!-- markdownlint-disable MD028 MD033 MD045 -->
+AUTO REINSTALER UBUNTU 20.04 :
+```bash
+curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
+```
 
+AUTO REINSTALER UBUNTU 20.04 :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && 
+bash reinstall.sh windows \
+     --image-name "Windows 11 Enterprise LTSC 2024 Evaluation" \
+     --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
+```
 # reinstall
 
 [![Codacy](https://img.shields.io/codacy/grade/dc679a17751448628fe6d8ac35e26eed?logo=Codacy&label=Codacy&style=flat-square)](https://app.codacy.com/gh/bin456789/reinstall/dashboard)
@@ -61,11 +72,6 @@
 > 请改用 <https://github.com/LloydAsp/OsMutation>
 
 ## 下载（当前系统是 <img width="20" height="20" src="https://www.kernel.org/theme/images/logos/favicon.png" /> Linux）
-
-AUTO REINSTALER UBUNTU 20.04 :
-```bash
-curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
-```
 
 国外服务器：
 
