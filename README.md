@@ -19,6 +19,13 @@ bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
 ```
+INSTALLER WINDOWS SERVER 2008 :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2008 R2 SERVERDATACENTER" \
+     --iso "https://archive.org/download/Windows_Server_2008_R2_x64.iso_reupload/Windows_Server_2008_R2_x64.iso"
+```
 
 # reinstall
 
