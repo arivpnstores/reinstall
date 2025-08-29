@@ -19,6 +19,13 @@ bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
 ```
+INSTALLER WINDOWS SERVER 2012 :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2012 R2 SERVERDATACENTER" \
+     --iso "https://go.microsoft.com/fwlink/?LinkID=2195443"
+```
 # reinstall
 
 [![Codacy](https://img.shields.io/codacy/grade/dc679a17751448628fe6d8ac35e26eed?logo=Codacy&label=Codacy&style=flat-square)](https://app.codacy.com/gh/bin456789/reinstall/dashboard)
