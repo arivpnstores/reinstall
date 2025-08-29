@@ -19,13 +19,6 @@ bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
 ```
-AUTO REINSTALLER WINDOWS SERVER 2012 :
-```bash
-wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh &&
-bash reinstall.sh windows \
-     --image-name "Windows Server 2012 R2 SERVERDATACENTER" \
-     --iso "https://go.microsoft.com/fwlink/?LinkID=2195443"
-```
 ```bash
 ***** INFO *****
 Linux Login
