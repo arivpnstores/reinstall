@@ -4,7 +4,7 @@ AUTO REINSTALER UBUNTU 20.04 :
 curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
 ```
 
-INSTALLER WINDOWS 11 :
+AUTO REINSTALLER WINDOWS 11 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && 
 bash reinstall.sh windows \
@@ -12,19 +12,33 @@ bash reinstall.sh windows \
      --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
 ```
 
-INSTALLER WINDOWS SERVER 2025 :
+AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
 ```
-INSTALLER WINDOWS SERVER 2012 :
+AUTO REINSTALLER WINDOWS SERVER 2012 :
 ```bash
-wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
+wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2012 R2 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?LinkID=2195443"
+```
+```bash
+***** INFO *****
+Linux Login
+Username: root
+Password: Ari123Ok
+AutoReboot to start the installation.
+root@vps:~#
+***** INFO *****
+Windows Login
+Username: administrator
+Password: Ari123Ok
+AutoReboot to start the installation.
+root@rdp:~#
 ```
 # reinstall
 
