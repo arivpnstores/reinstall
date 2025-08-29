@@ -62,10 +62,9 @@
 
 ## 下载（当前系统是 <img width="20" height="20" src="https://www.kernel.org/theme/images/logos/favicon.png" /> Linux）
 
-REINSTALER UBUNTU 20.04 :
+AUTO REINSTALER UBUNTU 20.04 :
 ```bash
-curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && \
-printf "Ari123Ok\nAri123Ok\n" | bash reinstall.sh ubuntu 20.04 && reboot
+curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
 ```
 
 国外服务器：
@@ -270,12 +269,12 @@ bash reinstall.sh netboot.xyz
 
 ![Windows 安装界面](https://github.com/bin456789/reinstall/assets/7548515/07c1aea2-1ce3-4967-904f-aaf9d6eec3f7)
 
-- 用户名 `administrator` 默认密码 `123@@@`
-- 如果远程登录失败，可以尝试使用用户名 `.\administrator`
-- 静态机器会自动配置好 IP，可能首次开机几分钟后才生效
-- 支持所有语言
+- Nama pengguna `administrator`, kata sandi default `123@@@`
+- Jika login jarak jauh gagal, coba gunakan nama pengguna `.\administrator`
+- Mesin statis akan secara otomatis mengonfigurasi alamat IP-nya, tetapi mungkin perlu beberapa menit agar alamat IP tersebut berlaku setelah boot pertama.
+- Mendukung semua bahasa
 
-#### 支持的系统
+#### Sistem yang Didukung
 
 - Windows (Vista ~ 11)
 - Windows Server (2008 ~ 2025)
@@ -284,10 +283,10 @@ bash reinstall.sh netboot.xyz
   - Hyper-V Server \*
   - Azure Stack HCI \*
 
-#### 方法 1: 让脚本自动查找 ISO
+#### Metode 1: Gunakan skrip untuk menemukan ISO secara otomatis
 
-- 脚本会从 <https://massgrave.dev/genuine-installation-media> 查找 ISO，该网站专门提供官方 ISO 下载
-- 上面带 \* 的系统不支持自动查找 ISO
+- Skrip akan mencari ISO dari <https://massgrave.dev/genuine-installation-media>, situs web yang didedikasikan untuk unduhan ISO resmi.
+- Sistem yang ditandai dengan * tidak mendukung pencarian ISO otomatis.
 
 ```bash
 bash reinstall.sh windows \
@@ -342,9 +341,9 @@ zh-tw
 
 </details>
 
-#### 方法 2: 自行指定 ISO 连接
+#### Metode 2: Sesuaikan Koneksi ISO
 
-- 如果不知道 `--image-name`，可以随便填，在重启后连接 SSH，根据错误提示重新输入正确的值
+- Jika Anda tidak tahu `--image-name`, Anda dapat mengisinya secara acak. Setelah reboot, sambungkan ke SSH dan masukkan kembali nilai yang benar jika muncul pesan kesalahan.
 
 ```bash
 bash reinstall.sh windows \
@@ -352,7 +351,7 @@ bash reinstall.sh windows \
      --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
 ```
 
-或者磁力链接
+Atau tautan magnet
 
 ```bash
 bash reinstall.sh windows \
