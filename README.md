@@ -6,7 +6,7 @@ curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.
 
 AUTO REINSTALLER WINDOWS 11 :
 ```bash
-wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && 
+wget https://raw.githubusercontent.com/bin456789/arivpnstores/main/reinstall.sh -O reinstall.sh && 
 bash reinstall.sh windows \
      --image-name "Windows 11 Enterprise LTSC 2024 Evaluation" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
@@ -14,7 +14,7 @@ bash reinstall.sh windows \
 
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
-wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh &&
+wget https://raw.githubusercontent.com/bin456789/arivpnstores/main/reinstall.sh -O reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
