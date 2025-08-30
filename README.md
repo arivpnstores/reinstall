@@ -3,15 +3,6 @@ AUTO REINSTALER UBUNTU 20.04 :
 ```bash
 curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh && bash reinstall.sh ubuntu 20.04
 ```
-
-AUTO REINSTALLER WINDOWS 11 :
-```bash
-wget https://raw.githubusercontent.com/bin456789/arivpnstores/main/reinstall.sh -O reinstall.sh && 
-bash reinstall.sh windows \
-     --image-name "Windows 11 Enterprise LTSC 2024 Evaluation" \
-     --iso "https://go.microsoft.com/fwlink/?linkid=2289029"
-```
-
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/arivpnstores/main/reinstall.sh -O reinstall.sh &&
