@@ -5,7 +5,7 @@ curl -O https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.
 ```
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
-wget https://raw.githubusercontent.com/arivpnstores/main/main/reinstall.sh -O reinstall.sh &&
+wget https://raw.githubusercontent.com/arivpnstores/main/reinstall.sh -O reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312"
