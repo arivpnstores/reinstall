@@ -11,12 +11,12 @@ bash reinstall.sh windows \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312" \
      --rdp-port "22"
 ```
-AUTO REINSTALLER WINDOWS SERVER 2016 TESTTER :
+AUTO REINSTALLER WINDOWS 10 LTSB 2015 :
 ```bash
 wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
 bash reinstall.sh windows \
-     --image-name "Windows Server 2016 SERVERDATACENTER" \
-     --iso "https://archive.org/download/windows-server-2016_202212/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO" \
+     --image-name "Windows 10 LTSB 2015" \
+     --lang en-us
      --rdp-port "22"
 ```
 ```bash
