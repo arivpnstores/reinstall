@@ -16,7 +16,7 @@ AUTO REINSTALLER WINDOWS 10 LTSB 2015 :
 wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows 10 LTSB 2015" \
-     --lang en-us
+     --lang "en-us" \
      --rdp-port "22"
 ```
 ```bash
