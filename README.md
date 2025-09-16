@@ -28,7 +28,7 @@ AutoReboot to start the installation.
 root@vps:~#
 ***** INFO *****
 Windows Login
-Port : 3389
+Port : 22
 Username: administrator
 Password: Ari123Ok
 AutoReboot to start the installation.
