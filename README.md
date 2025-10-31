@@ -1,4 +1,8 @@
 <!-- markdownlint-disable MD028 MD033 MD045 -->
+AUTO REINSTALER UBUNTU 20.04 ORI :
+```bash
+wget https://raw.githubusercontent.com/arivpnstores/bin456789/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04
+```
 AUTO REINSTALER UBUNTU 20.04 :
 ```bash
 wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04
