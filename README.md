@@ -3,24 +3,12 @@ AUTO REINSTALER UBUNTU 20.04 ORI :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04 
 ```
-AUTO REINSTALER UBUNTU 20.04 :
-```bash
-wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04
-```
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
-wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
 bash reinstall.sh windows \
      --image-name "Windows Server 2025 SERVERDATACENTER" \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312" \
-     --rdp-port "22"
-```
-AUTO REINSTALLER WINDOWS 10 LTSB 2015 :
-```bash
-wget https://raw.githubusercontent.com/arivpnstores/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
-bash reinstall.sh windows \
-     --image-name "Windows 10 LTSB 2015" \
-     --lang "en-us" \
      --rdp-port "22"
 ```
 ```bash
