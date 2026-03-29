@@ -11,6 +11,14 @@ bash reinstall.sh windows \
      --iso "https://go.microsoft.com/fwlink/?linkid=2293312" \
      --rdp-port "22"
 ```
+AUTO REINSTALLER WINDOWS SERVER 2022
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2022 SERVERDATACENTER" \
+     --iso "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso" \
+     --rdp-port "22"
+```
 AUTO REINSTALLER WINDOWS SERVER 2016 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
