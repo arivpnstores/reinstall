@@ -1,4 +1,47 @@
 <!-- markdownlint-disable MD028 MD033 MD045 -->
+AUTO REINSTALER UBUNTU 20.04 ORI :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04 
+```
+AUTO REINSTALLER WINDOWS SERVER 2025 :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2025 SERVERDATACENTER" \
+     --iso "https://go.microsoft.com/fwlink/?linkid=2293312" \
+     --rdp-port "22"
+```
+AUTO REINSTALLER WINDOWS SERVER 2022
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2022 SERVERDATACENTER" \
+     --iso "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso" \
+     --rdp-port "22"
+```
+AUTO REINSTALLER WINDOWS SERVER 2016 :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
+bash reinstall.sh windows \
+     --image-name "Windows Server 2016 SERVERDATACENTER" \
+     --iso "https://software-static.download.prss.microsoft.com/pr/download/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO" \
+     --rdp-port "22"
+```
+```bash
+***** INFO *****
+Linux Login
+Username: root
+Password: Ari123Ok
+AutoReboot to start the installation.
+root@vps:~#
+***** INFO *****
+Windows Login
+Port : 22
+Username: administrator
+Password: Ari123Ok
+AutoReboot to start the installation.
+root@rdp:~#
+```
 
 # reinstall
 
