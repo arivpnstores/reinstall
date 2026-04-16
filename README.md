@@ -3,6 +3,14 @@ AUTO REINSTALER UBUNTU 20.04 ORI :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 20.04 
 ```
+AUTO REINSTALER UBUNTU 24.04 ORI :
+```bash
+wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh ubuntu 24.04 
+```
+AUTO REINSTALER DEBIAN 12 :
+```bash
+    wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh debian 12
+```
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
