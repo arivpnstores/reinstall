@@ -11,6 +11,10 @@ AUTO REINSTALER DEBIAN 12 :
 ```bash
     wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh debian 12
 ```
+AUTO REINSTALER KALI LINUX :
+```bash
+    wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh && bash reinstall.sh kali
+```
 AUTO REINSTALLER WINDOWS SERVER 2025 :
 ```bash
 wget https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh -O reinstall.sh && chmod +x reinstall.sh &&
