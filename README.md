@@ -40,19 +40,19 @@ bash reinstall.sh windows \
      --rdp-port "22"
 ```
 ```bash
+simpan seperti ini nya sebelum reboot!!!
 ***** INFO *****
 Linux Login
 Username: root
 Password: Ari123Ok
-AutoReboot to start the installation.
+Reboot to start the installation.
 root@vps:~#
 ***** INFO *****
 Windows Login
 Port : 22
 Username: administrator
 Password: Ari123Ok
-AutoReboot to start the installation.
-root@rdp:~#
+Reboot to start the installation.
 ```
 # reinstall
 
